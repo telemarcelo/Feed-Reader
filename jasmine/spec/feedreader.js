@@ -88,11 +88,11 @@ $(function() {
          */
 
         beforeEach(function(done){
-                loadFeed(1,function(){done();});
+            loadFeed(1,function(){done();});
 
             });
         it('at least one entry in feed container', function(done){
-            expect($('.entry')).not.toBe(null);
+            expect($('.feed .entry')).not.toBe(0);
             done();
         });
 
