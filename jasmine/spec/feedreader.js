@@ -92,7 +92,7 @@ $(function() {
 
             });
         it('at least one entry in feed container', function(done){
-            expect($('.feed .entry')).not.toBe(0);
+            expect($('.feed .entry').length).not.toBe(0);
             done();
         });
 
