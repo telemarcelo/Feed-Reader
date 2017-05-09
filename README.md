@@ -1,5 +1,7 @@
 ###Feed Reader Test
 
+##To Operate:
+Simply open index.html in a browser to access feeds.  Use hamburger menu to get a list of different feeds.
 ##About:
 The purpose of this project is to implement various tests to test the functionality of a feed reader.
 
